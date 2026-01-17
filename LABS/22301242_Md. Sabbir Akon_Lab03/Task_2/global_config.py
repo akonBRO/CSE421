@@ -1,0 +1,8 @@
+import socket
+
+SERVER_PORT = 3000
+DEVICE_NAME = socket.gethostname()
+SERVER_IP = socket.gethostbyname(DEVICE_NAME)
+SERVER_SOCKET_ADDR = (SERVER_IP, SERVER_PORT)
+EXCHANGE_FORMAT = 'utf-8'
+CONTRACT_LENGTH = 10
